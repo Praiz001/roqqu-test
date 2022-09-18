@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #020717;
+  /* font-family: ; bg-[#020717] blue*/
+}
+
+.active-tabs {
+  border-bottom: 2px solid #6E97F5;
+}
+
+.content {
+  display: none;
+}
+
+.active-content {
+  display: block;
+}
+
+.chartGrid {
+  stroke: 00FFFFFF;
+}
