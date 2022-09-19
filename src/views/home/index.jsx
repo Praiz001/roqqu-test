@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import mocks from "./mocks";
 
 import Hero from "./Hero";
@@ -7,7 +7,7 @@ import Activities from "./Activities";
 import Tabs from "./Tabs";
 
 const Home = () => {
-  return (
+  return (  
     <div className="p-[1.125rem] pt-[6.8rem] md:pl-[2.88rem] md:pr-[1.25rem] w-full flex flex-col space-x-0 lg:flex-row lg:space-x-[1.94rem]  ">
       <div className="flex-[3]">
         <Hero data={mocks.heroSection} images={mocks?.images} />

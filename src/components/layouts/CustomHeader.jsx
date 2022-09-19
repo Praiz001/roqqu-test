@@ -11,7 +11,7 @@ const CustomHeader = () => {
             <DesktopNav data={mocks.customDesktopNav} images={mocks?.images}/>
         </div>
         <div className='block md:hidden '>
-            <MobileNav data={mocks.customMobileNav} images={mocks?.images}/>
+            <MobileNav data={mocks.mobileNav} images={mocks?.images}/>
         </div>
 
     </div>

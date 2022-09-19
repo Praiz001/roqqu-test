@@ -11,7 +11,7 @@ import Rechart from "./Rechart";
 
 const Charts = ({ data, images }) => {
   return (
-    <div className="w-full py-[1rem] lg:max-w-[57.69rem] min-h-[30.4rem] bg-[#0D152E] rounded-[0.63rem]">
+    <div className="py-[1rem] w-full lg:max-w-[57.69rem] min-h-[30.4rem] bg-[#0D152E] rounded-[0.63rem]">
       <div className="px-[1.8rem] py-[1.04rem] rounded-[0.63rem] ">
         <div className="flex items-center justify-between ">
           <p className="text-[#FFFFFFE8] text-[1rem] leading-[1.44rem] font-bold  ">

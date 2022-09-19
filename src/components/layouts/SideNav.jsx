@@ -12,7 +12,7 @@ const SideNav = ({ data, images }) => {
         onMouseLeave={() => setOpen(!open)}
         className={`${
           open ? "w-[15.5rem]" : "w-[5.3rem] "
-        } bg-[#080F24] ease-out duration-300 absolute left-0  z-30 min-h-full text-[#FFFFFFD8] font-semibold  pr-[1.13rem] pl-[0.94rem] py-[6.88rem] `}
+        } bg-[#080F24] ease-out duration-300 absolute left-0  z-[99] min-h-full text-[#FFFFFFD8] font-semibold  pr-[1.13rem] pl-[0.94rem] py-[6.88rem] `}
       >
         <nav className="space-y-[1rem] ">
           {data.navs.map((nav, index) => (

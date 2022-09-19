@@ -6,9 +6,9 @@ import PriceCollage from "./PriceCollage";
 
 const Exchange = () => {
   return (
-    <div className="p-[1.125rem] pt-[6.8rem] md:pl-[2.88rem] md:pr-[1.25rem] w-full  ">
+    <div className="p-[1.125rem] pt-[6.8rem] md:pl-[2.88rem] md:pr-[1.25rem] w-full flex flex-col ">
       <PriceCollage data={mocks.priceCollage} images={mocks?.images} />
-      <div className="mt-[1.69rem] flex flex-col space-x-0 lg:flex-row lg:space-x-[0.8rem] ">
+      <div className="mt-[1.69rem] flex flex-col  space-x-0 lg:flex-row lg:space-x-[0.8rem] justify-between">
         <div className="flex-[3]">
           <Charts data={mocks.charts} images={mocks?.images} />
         </div>
@@ -19,7 +19,5 @@ const Exchange = () => {
     </div>
   );
 };
-
-// flex flex-col space-x-0 lg:flex-row lg:space-x-[1.94rem] w-full min-w-[57.69rem]
 
 export default Exchange;

@@ -11,7 +11,7 @@ const OrderBook = ({ data, images }) => {
           <thead className="text-[#E4E4FA91] text-[0.75rem] leading-[1rem] font-medium ">
             <tr className="">
               {data.tablehead.map((item) => (
-                <th className="pr-[1.69rem]" key={item.index}>
+                <th className="pr-[1.69rem]" key={item}>
                   {item}
                 </th>
               ))}

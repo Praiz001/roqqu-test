@@ -20,7 +20,7 @@ const data = [
 const Rechart = () => {
   return (
     <div>
-      <ResponsiveContainer width="100%" aspect={2 / 1}>
+      <ResponsiveContainer width="100%" aspect={2 / 1} >
         <AreaChart
           width={730}
           height={250}
