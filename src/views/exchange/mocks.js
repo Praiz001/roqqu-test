@@ -39,7 +39,7 @@ export default {
   orderBook: {
     title: "Order Book",
     tablehead: ["PRICE(USDT)", "AMOUNT(BTC)", "TOTAL (USDT)"],
-    losstable: [
+    losstable: [ 
       {
         price: 128299.304781,
         amount: 5.304781,

@@ -7,9 +7,10 @@ import { BiCamera } from "react-icons/bi";
 import { AiOutlineSetting } from "react-icons/ai";
 import { BsArrowsFullscreen } from "react-icons/bs";
 
-import Rechart from "./Rechart";
+import AppexCharts from "./AppexCharts";
 
-const Charts = ({ data, images }) => {
+
+const Charts = ({data, images }) => {
   return (
     <div className="py-[1rem] w-full lg:max-w-[57.69rem] min-h-[30.4rem] bg-[#0D152E] rounded-[0.63rem]">
       <div className="px-[1.8rem] py-[1.04rem] rounded-[0.63rem] ">
@@ -60,11 +61,10 @@ const Charts = ({ data, images }) => {
           </div>
         </div>
       </div>
-      <div className="mt-[1.02rem] text-white bg-[#04091C] mx-auto w-[95%] min-h-[20.95rem] ">
-        <p className="text-[#FFFFFF] text-[1.123rem] leading-[1.6rem] ">
-          BTC / NGN: 26,792,926.87
-        </p>
-        <Rechart />
+      <div className="mt-[1.02rem] bg-[#04091C] mx-auto w-[95%] h-[20.95rem] ">
+        <div>
+          <AppexCharts />
+        </div>
       </div>
     </div>
   );

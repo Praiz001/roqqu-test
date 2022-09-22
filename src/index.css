@@ -30,3 +30,29 @@ body {
 .chartGrid {
   stroke: 00FFFFFF;
 }
+
+
+.WeyCharts {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.chart-container {
+  flex: 1;
+}
+
+.tv-lightweight-charts {
+  flex: 1;
+  height: 100%;
+}
+
+.apexcharts-tooltip span {
+  color: #020717;
+}
+.tooltip.marker.fillColors span {
+  color: #020717;
+}
+.legend.markers.fillColors span {
+  color: #020717;
+}
